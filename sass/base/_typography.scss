@@ -1,0 +1,46 @@
+.paragraph {
+  font-size: 1.8rem;
+  color: $color-grey-light;
+  margin: 3rem 0;
+
+  &--small {
+    font-size: 1.7rem;
+  }
+
+  &--smaller {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+
+.heading-1 {
+  color: $color-dark-blue;
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 100;
+}
+
+.heading-2 {
+  color: $color-dark-blue;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  font-weight: 100;
+
+  @media (max-width: 800px) {
+    text-align: center;
+  }
+}
+
+.heading-3 {
+  color: $color-dark-blue;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.heading-4 {
+  color: $color-dark-blue;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}

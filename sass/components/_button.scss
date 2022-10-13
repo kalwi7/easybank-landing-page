@@ -1,0 +1,17 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    border: none;
+    border-radius: 50px;
+    padding: 1.5rem 3rem;
+    background-image: linear-gradient(to right, $color-green, $color-cyan);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  &:hover {
+    filter: brightness(115%);
+  }
+}

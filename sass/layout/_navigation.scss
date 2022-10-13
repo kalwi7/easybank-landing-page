@@ -1,0 +1,59 @@
+.navigation {
+  &__list {
+    list-style-type: none;
+    display: flex;
+
+    @media (max-width: 800px) {
+      flex-direction: column;
+      position: fixed;
+      top: 8rem;
+      left: 0;
+      right: 0;
+      margin: 3rem;
+      padding: 1rem 0;
+      background-color: white;
+      border-radius: 5px;
+      display: none;
+    }
+  }
+
+  &__item {
+    margin: 0 2rem;
+    position: relative;
+
+    &:hover {
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: -3rem;
+        left: 0;
+        height: 0.4rem;
+        background-image: linear-gradient(to right, $color-green, $color-cyan);
+      }
+    }
+
+    @media (max-width: 800px) {
+      margin: 1.5rem;
+      text-align: center;
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: $color-grey-light;
+    }
+  }
+  &__toggle-btn {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+
+    @media (max-width: 800px) {
+      display: block;
+    }
+  }
+}

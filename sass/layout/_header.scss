@@ -1,0 +1,14 @@
+.header {
+  height: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+  background-color: white;
+  position: relative;
+  margin: 0 10vw;
+
+  @media (max-width: 1200px) {
+    margin: 0 4rem;
+  }
+}

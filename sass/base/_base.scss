@@ -1,0 +1,69 @@
+// COLOR VARIABLES
+$color-dark-blue: hsl(233, 26%, 24%);
+$color-green: hsl(136, 65%, 51%);
+$color-cyan: hsl(192, 70%, 51%);
+$color-grey-light: hsl(233, 8%, 62%);
+$color-grey-light2: hsl(0, 0%, 98%);
+
+$color-grey-dark-1: #54483a;
+$color-grey-dark-2: #6d5d4b;
+
+// FONT VARIABLES
+$font-primary: "Public Sans", sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+// $bp-largest: 75em; // 1200px
+// $bp-large: 62.5em; // 1000px
+// $bp-medium: 50em; // 800px;
+// $bp-small: 37.5em; // 600px;
+
+// ### Neutral
+
+// - Light Grayish Blue: hsl(220, 16%, 96%)
+// Very Light Gray: hsl(0, 0%, 98%)
+// - White: hsl(0, 0%, 100%)
+
+// ## Typography
+
+// ### Body Copy
+
+// - Font size: 18px
+
+// ### Font
+
+// - Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+// - Weights: 300, 400, 700
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 1.8rem;
+}
+
+.btn-nav {
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.diseble {
+  display: none !important;
+}
+
+.enable {
+  display: flex !important;
+}

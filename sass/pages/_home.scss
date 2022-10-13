@@ -1,0 +1,17 @@
+.section-hero {
+  background-color: $color-grey-light2;
+  min-height: 15rem;
+}
+
+.section-features {
+  background-color: $color-grey-light2;
+}
+
+.section-articles {
+  background-color: $color-grey-light2;
+  padding: 10rem 10vw;
+
+  @media (max-width: 1200px) {
+    padding: 4rem 4rem;
+  }
+}

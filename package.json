@@ -1,0 +1,22 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "Fronten Mentor Project ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalwi7/easybank-landing-page.git"
+  },
+  "author": "Dawid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalwi7/easybank-landing-page/issues"
+  },
+  "homepage": "https://github.com/kalwi7/easybank-landing-page#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
