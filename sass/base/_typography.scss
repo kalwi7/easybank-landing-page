@@ -40,12 +40,12 @@
   color: $color-dark-blue;
   font-size: 2.5rem;
   font-weight: 100;
-}
 
-.heading-4 {
-  color: $color-dark-blue;
-  font-size: 2rem;
-  line-height: 3rem;
-  font-weight: 100;
-  margin-bottom: 2rem;
+  &--small {
+    color: $color-dark-blue;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+  }
 }
