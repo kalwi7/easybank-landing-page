@@ -8,9 +8,9 @@
   }
 
   &__desc {
-    width: 30%;
+    width: 48%;
     padding: 17rem 0;
-    padding-left: 6rem;
+    padding-left: 10vw;
 
     // @media (max-width: 800px) {
     //   // margin: 0 2rem;
@@ -47,28 +47,35 @@
       // }
 
       @media (max-width: 1200px) {
-        position: absolute;
-        top: -16vh;
+        max-height: 70vh;
         max-width: 100%;
+        /* position: fixed; */
+        position: unset;
+        /* text-align: center; */
+        /* width: 100%; */
+        display: block;
+        margin: 0 auto;
       }
     }
 
     @media (max-width: 1200px) {
-      // background-image: url("../images/bg-intro-mobile.svg");
-      height: 65rem;
+      // background-position: 100% 0;
+      background-size: cover;
+      max-height: 52vh;
       width: 100%;
     }
 
     @media (max-width: 800px) {
-      background-image: url("../images/bg-intro-mobile.svg");
-      /* height: 106vh; */
-      height: 60rem;
-      background-position: 100% 0%;
+      background-image: url(../images/bg-intro-mobile.svg);
+      // height: 60rem;
+      background-position: 100% 70%;
+      width: 100%;
+      min-height: 30vh;
     }
 
     @media (max-width: 600px) {
       // background-image: url("../images/bg-intro-mobile.svg");
-      height: 38rem;
+      // height: 38rem;
     }
   }
 }

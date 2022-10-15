@@ -18,6 +18,11 @@
   font-size: 5rem;
   line-height: 6rem;
   font-weight: 100;
+
+  @media (max-width: 600px) {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
 }
 
 .heading-2 {
